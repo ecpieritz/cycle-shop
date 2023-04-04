@@ -435,3 +435,199 @@ button {
     color: #ffffff;
 }
 /* banner section end */
+
+/* cycle section start */
+.cycle__section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.cycle__taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cycle__text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #242424;
+    text-align: center;
+    margin: 0px;
+}
+.cycle__section__2{
+    width: 100%;
+    float: left;
+}
+.box__main{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.number__text {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #363078;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px 0px;
+    float: right;
+    margin-right: 140px;
+    margin-top: 60px;
+}
+.image__2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-left: 100px;
+}
+.box__main:after{
+    content: '';
+    background-color: #e8b238;
+    position: absolute;
+    width: 420px;
+    right: 0px;
+    top: 0px;
+    margin: 0 auto;
+    display: flex;
+    height: 600px;
+    left: 0;
+    z-index: -1;
+clip-path: polygon(0 0, 75% 8%, 75% 80%, 0% 100%);
+
+}
+.cycles__text{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #1c1c1c;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 40px;
+}
+.cycles__text:after {
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 1px;
+    background-color: #363078;
+    left: 0px;
+    right: initial;
+    margin: 0 auto;
+    top: 70px;
+}
+.lorem__text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #1c1c1c;
+    margin: 0px; 
+    padding-top: 40px;   
+}
+
+.btn__main{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+.buy__bt{
+    width: 170px;
+    float: left;
+}
+.buy__bt a{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #363078;
+    padding: 8px 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.buy__bt a:hover{
+    color: #ffffff;
+    background-color: #e8b238;
+}
+
+.price__text {
+    width: 100%;
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.cycle__section__3{
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+.box__main__3{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.box__main__3:after {
+    content: '';
+    background-color: #e8b238;
+    position: absolute;
+    width: 420px;
+    right: 0px;
+    top: 0px;
+    margin: 0 auto;
+    display: flex;
+    height: 530px;
+    left: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 65% 8%, 64% 80%, 0% 100%);
+}
+.number__text__2 {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #363078;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px 0px;
+    float: right;
+    margin-right: 185px;
+    margin-top: 60px;
+}
+.read__btn__main {
+    width: 100%;
+    float: left;
+    margin-top: 200px;
+
+}
+.read__bt{
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.read__bt a{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #e8b238;
+    padding: 8px 5px;
+    text-align: center;
+}
+.read__bt a:hover{
+    color: #ffffff;
+    background-color: #363078;
+}
+
+/* cycle section end */
+
+
+
