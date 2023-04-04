@@ -205,3 +205,132 @@ button {
 .padding__0 {
     padding: 0px;
 }
+/* header section start */
+.header__section {
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(-13deg, #ffffff 30%, #363078 20%);
+    position: relative;
+    overflow-x: hidden; 
+}
+
+.header__bg {
+    width: 100%;
+    float: left;
+}
+
+.header__section::after {
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 420px;
+    right: initial;
+    top: 0px;
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    left: 0;
+}
+
+.header__section.header__bg::after {
+    height: 100%;
+}
+
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-expand-lg {
+    position: relative;
+    z-index: 9;
+}
+
+.logo {
+    width: 35%;
+    float: left;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #e0dcdc !important;
+    display: flex;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e8b238 !important;
+}
+
+.login__menu{
+    width: 100%;
+    display: flex;
+}
+.login__menu ul{
+    margin: 0px; 
+    padding: 0px;
+}
+.login__menu li{
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.login__menu li a{
+
+    color: #ffffff;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    width: 5%;
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* header section end */
