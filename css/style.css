@@ -334,3 +334,104 @@ button {
 }
 
 /* header section end */
+
+/* banner section start */
+.banner__section {
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+}
+
+.best__text {
+    width: 90px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e8b238;
+    color: #363078;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 26px 0px;
+    text-transform: uppercase;
+    left: -15px;
+    position: relative;
+}
+.image__1 {
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.banner__taital {
+    width: 50%;
+    float: left;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Raleway ExtraBold', sans-serif;
+    padding-top: 40px;
+}
+
+.banner__text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.contact__bt {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.contact__bt a {
+    width: 180px;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #e8b238;
+    padding: 8px 0px;
+}
+
+.contact__bt a:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+
+
+#main__slider a.carousel-control-prev {
+    left: 88%;
+    top: 60%;
+    background-color: #e8b238;
+    color: #ffffff;
+}
+
+#main__slider a.carousel-control-next {
+    position: absolute;
+    right: 20px;
+    top: 60%;
+}
+
+#main__slider .carousel-control-prev,
+#main__slider .carousel-control-next {
+    width: 68px;
+    height: 68px;
+    background: #363078;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#main__slider .carousel-control-prev:hover,
+#main__slider .carousel-control-next:hover,
+#main__slider .carousel-control-prev:focus,
+#main__slider .carousel-control-next:focus {
+    background-color: #e8b238;
+    color: #ffffff;
+}
+/* banner section end */
