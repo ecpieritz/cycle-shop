@@ -7,10 +7,10 @@
 
 	var revapi486;
 	tpj(document).ready(function () {
-		if (tpj("#rev_slider_486_1").revolution == undefined) {
-			revslider_showDoubleJqueryError("#rev_slider_486_1");
+		if (tpj("#rev__slider__486__1").revolution == undefined) {
+			revslider__showDoubleJqueryError("#rev__slider__486__1");
 		} else {
-			revapi486 = tpj("#rev_slider_486_1").show().revolution({
+			revapi486 = tpj("#rev__slider__486__1").show().revolution({
 				sliderType: "standard",
 				jsFileLocation: "revolution/js/",
 				sliderLayout: "fullscreen",
@@ -18,49 +18,49 @@
 				delay: 5000,
 				navigation: {
 					keyboardNavigation: "on",
-					keyboard_direction: "horizontal",
+					keyboard__direction: "horizontal",
 					mouseScrollNavigation: "off",
 					mouseScrollReverse: "default",
 					onHoverStop: "on",
 					touch: {
 						touchenabled: "on",
-						swipe_threshold: 75,
-						swipe_min_touches: 1,
-						swipe_direction: "horizontal",
-						drag_block_vertical: false
+						swipe__threshold: 75,
+						swipe__min__touches: 1,
+						swipe__direction: "horizontal",
+						drag__block__vertical: false
 					},
 					arrows: {
 						  style: "gyges",
 						  enable: true,
-						  hide_onmobile: false,
-						  hide_onleave: true,
-						  hide_delay: 200,
-						  hide_delay_mobile: 1200,
+						  hide__onmobile: false,
+						  hide__onleave: true,
+						  hide__delay: 200,
+						  hide__delay__mobile: 1200,
 						  tmp: '',
 						  left: {
-							  h_align: "left",
-							  v_align: "center",
-							  h_offset: 0,
-							  v_offset: 0
+							  h__align: "left",
+							  v__align: "center",
+							  h__offset: 0,
+							  v__offset: 0
 						  },
 						  right: {
-							  h_align: "right",
-							  v_align: "center",
-							  h_offset: 0,
-							  v_offset: 0
+							  h__align: "right",
+							  v__align: "center",
+							  h__offset: 0,
+							  v__offset: 0
 						  }
 					  },
 					bullets: {
 						enable: true,
-						hide_onmobile: true,
-						hide_under: 800,
+						hide__onmobile: true,
+						hide__under: 800,
 						style: "hebe",
-						hide_onleave: false,
+						hide__onleave: false,
 						direction: "horizontal",
-						h_align: "center",
-						v_align: "bottom",
-						h_offset: 0,
-						v_offset: 30,
+						h__align: "center",
+						v__align: "bottom",
+						h__offset: 0,
+						v__offset: 30,
 						space: 5,
 						tmp: '<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title"></span>'
 					}
@@ -68,7 +68,7 @@
 				viewPort: {
 					enable: true,
 					outof: "pause",
-					visible_area: "70%",
+					visible__area: "70%",
 					presize: false
 				},
 				responsiveLevels: [1240, 1024, 778, 480],
